@@ -41,7 +41,7 @@ function initializeScripts() {
             const data = widgetsData[widgetKey];
             if (!data) return;
 
-            modalIcon.textContent = data.icon;
+            modalIcon.innerHTML = data.icon;
             modalTitle.textContent = data.title;
             modalDescription.textContent = data.description;
 
